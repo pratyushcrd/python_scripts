@@ -1,2 +1,2 @@
-# python_scripts
-A collection for short script I will be making
+# Python Scripts
+A collection for short scripts I will be making
