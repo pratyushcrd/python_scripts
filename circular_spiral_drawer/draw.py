@@ -24,10 +24,7 @@ def location(quadrant, radius, posX, posY):
     else:
         locX = math.sin(radian) * radius +  posX
         locY = math.cos(radian) * -radius + posY
-    list_location = []
-    list_location.append(locX)
-    list_location.append(locY)
-    return tuple(list_location)
+    return (locX, locY)
 
 time.sleep(1.5)
 posX, posY = pyautogui.position()
